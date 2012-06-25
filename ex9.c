@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-  int numbers[4] = {0};
+  int numbers[4] = {'a', 'a'};
   char name[4] = {'a'};
 
   // first print them out raw.
@@ -18,9 +18,9 @@ int main(int argc, char *argv[])
   numbers[3] = 4;
 
   // setup the name
-  name[0] = 'Z';
-  name[1] = 'e';
-  name[2] = 'd';
+  name[0] = '1';
+  name[1] = '0';
+  name[2] = '0';
   name[3] = '\0';
 
   // Then print them out initialized.
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
   char *another = "Zed";
 
   printf("another: %s\n", another);
-  printf("another each: %d %d %d %d\n", another[0], another[1], another[2], another[3]);
+  printf("another each: %c %c %c %c\n", another[0], another[1], another[2], another[3]);
 
   return 0;
 }
