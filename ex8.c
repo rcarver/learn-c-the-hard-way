@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
   printf("The number of chars: %ld\n", sizeof(name) / sizeof(char));
 
   printf("The size of full_name (char[]): %ld\n", sizeof(full_name));
-  printf("The number of chars: %ld", sizeof(full_name) / sizeof(char));
+  printf("The number of chars: %ld\n", sizeof(full_name) / sizeof(char));
 
   printf("name=\"%s\", full_name=\"%s\"\n", name, full_name);
 
