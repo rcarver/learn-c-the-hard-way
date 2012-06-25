@@ -1,7 +1,7 @@
 CFLAGS=-Wall -g
-SOURCES=ex*.c
+SOURCES=ex*
 
 all: $(SOURCES)
 
 clean:
-	rm -f ex4
+	rm -f ex8
